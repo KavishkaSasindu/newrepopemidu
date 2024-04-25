@@ -4,8 +4,6 @@ git config --global user.name ''
 git cinfig --global user.email ''
 
 
-
-
 //modify the text
 git add .
 git commit -m 'first commit'
@@ -17,3 +15,7 @@ git checkout -b newbranchname
 git add .
 git commit -m'any commit msg'
 git push origin newbranchname
+
+
+//check branch
+git branch
