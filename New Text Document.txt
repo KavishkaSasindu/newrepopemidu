@@ -1,21 +1,34 @@
+open within the file as open git bash here
+create repo in github
+
 //login part
 git init
 git config --global user.name ''
 git cinfig --global user.email ''
-
+git add .
+git commit -m 'enternce'
+-------------------------
+ (copy & paste the 3 lines in the repo)
+git remote.....
+git branch -M main
+git push -u origin main
+--------------------------
 
 //modify the text
 git add .
 git commit -m 'first commit'
 git push origin main(bramch name)
 
+//check branchs & which branch im in
+git branch
 
-//new branch
+// create new branch
 git checkout -b newbranchname
+//edit text and save
 git add .
 git commit -m'any commit msg'
 git push origin newbranchname
 
+//refresh the repo
 
-//check branch
-git branch
+
