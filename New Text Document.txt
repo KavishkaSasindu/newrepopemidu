@@ -1,0 +1,19 @@
+//login part
+git init
+git config --global user.name ''
+git cinfig --global user.email ''
+
+
+
+
+//modify the text
+git add .
+git commit -m 'first commit'
+git push origin main(bramch name)
+
+
+//new branch
+git checkout -b newbranchname
+git add .
+git commit -m'any commit msg'
+git push origin newbranchname
